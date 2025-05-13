@@ -6,7 +6,7 @@ const Home = () => {
 
       <div className='md:w-2/4 md:pt-10 '>
 
-        <h1 className='text-3xl md:text-4xl font-bold flex leading-normal tracking-tighter'>Hello I am Bhagwan Jha</h1>
+        <h1 className='text-2xl md:text-4xl font-bold flex leading-normal tracking-tighter'>Hello I am Bhagwan Jha</h1>
         <h3 className='text-2xl text-blue-600 md:text-3xl font-bold flex leading-normal tracking-tighter'>Advocate</h3>
 
         <p className=' text-blue-600 text-sm font-medium md:text-2xl tracking-tight'>Tax & Legal Consultant</p>

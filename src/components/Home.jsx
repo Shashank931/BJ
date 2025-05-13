@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../assets/logo.png';
+import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     <div className='text-black flex w-full justify-between items-start p-10 md:p-20 '>
@@ -11,8 +12,10 @@ const Home = () => {
 
         <p className=' text-blue-600 text-sm font-medium md:text-2xl tracking-tight'>Tax & Legal Consultant</p>
 
-        <button className=' mt-5 md:md-10 text-black py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#3e58c0]'>Contact Us
+        <Link to="/contact">  <button className=' mt-5 md:md-10 text-black py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#3e58c0]'>Contact Us
         </button>
+        </Link>
+      
 
       </div>
 

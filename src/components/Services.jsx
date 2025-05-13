@@ -36,7 +36,7 @@ const Services = () => {
                   "Gem Registration",
                   "Copyright Registration",
                   "Design Registration",
-                  "Patient Registration",
+                  "Patent Registration",
                   "MSME Registration",
                   "FASSAI Registration",
                   "DSC (Digital Signature)",
@@ -52,7 +52,7 @@ const Services = () => {
               </ul>
 
               <h1 className='text-xl md:text-2xl font-bold bg-teal-900 text-white mt-6 p-3 rounded'>
-                All Types Of Accounts Work On Contact Basis
+                All Types Of Accounts Work On Contract Basis
               </h1>
             </div>
           </div>

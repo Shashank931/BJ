@@ -26,16 +26,15 @@ const Home = () => {
 
 
       </div>
+      <div className="w-full md:w-1/2 mt-10 md:mt-0 flex justify-center md:justify-end items-center md:items-start">
+        <img
+          className="w-2/4 max-w-[100px] sm:max-w-[140px] md:w-[220px] md:max-w-[260px] lg:w-[280px] lg:max-w-[300px] object-contain transition-transform duration-300 hover:scale-105"
+          src={logo}
+          alt="logo"
+        />
+      </div>
 
-     <div className="w-full md:w-1/2 mt-10 md:mt-0 flex justify-center md:justify-end">
-  <img
-    className="w-3/4 md:w-1/2 max-w-xs md:max-w-sm lg:max-w-md object-contain transition-transform duration-300 hover:scale-105"
-    src={logo}
-    alt="logo"
-  />
-</div>
-
-    </div>
+   </div>
 
 
   )

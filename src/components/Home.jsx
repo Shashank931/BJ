@@ -27,11 +27,14 @@ const Home = () => {
 
       </div>
 
-      <div className='=md:w-1/2 mt-10 md:mt-0 flex justify-center md:justify-end'>
+     <div className="w-full md:w-1/2 mt-10 md:mt-0 flex justify-center md:justify-end">
+  <img
+    className="w-3/4 md:w-1/2 max-w-xs md:max-w-sm lg:max-w-md object-contain transition-transform duration-300 hover:scale-105"
+    src={logo}
+    alt="logo"
+  />
+</div>
 
-        <img className='w-2/3 md:w-1/2' src={logo} alt="logo" />
-
-      </div>
     </div>
 
 

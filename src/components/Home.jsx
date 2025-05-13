@@ -12,10 +12,18 @@ const Home = () => {
 
         <p className=' text-blue-600 text-sm font-medium md:text-2xl tracking-tight'>Tax & Legal Consultant</p>
 
-        <Link to="/contact">  <button className=' mt-5 md:md-10 text-black py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#3e58c0]'>Contact Us
-        </button>
+        <Link to="/contact">
+          <button
+            className="mt-5 md:mt-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 font-semibold rounded-3xl bg-[#3e58c0]
+      transition-all duration-300 ease-in-out
+      active:scale-95 hover:scale-105 hover:opacity-90
+      shadow-md hover:shadow-lg"
+          >
+            Contact Us
+          </button>
         </Link>
-      
+
+
 
       </div>
 

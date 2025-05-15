@@ -5,13 +5,14 @@ import Navbar from "./components/Navbar";
 import Services from "./components/Services";
 import Footer from "./components/Footer";
 import Contact from "./pages/Contact";
+import MoreDetails from "./pages/Moredetails";
 
 function App() {
   return (
     <Router>
       <div className="bg-blue-300 h-auto w-full overflow-hidden">
         <Navbar />
-
+       
         <Routes>
          
           <Route
@@ -25,7 +26,7 @@ function App() {
             }
           />
 
-        
+             <Route path="/moredetails" element={<MoreDetails/>}/>
           <Route path="/contact" element={<Contact />} />
         </Routes>
 

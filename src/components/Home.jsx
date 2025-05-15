@@ -15,9 +15,9 @@ const Home = () => {
         <Link to="/contact">
           <button
             className="mt-5 md:mt-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 font-semibold rounded-3xl bg-[#3e58c0]
-      transition-all duration-300 ease-in-out
-      active:scale-95 hover:scale-105 hover:opacity-90
-      shadow-md hover:shadow-lg"
+            transition-all duration-300 ease-in-out
+            active:scale-95 hover:scale-105 hover:opacity-90
+            shadow-md hover:shadow-lg"
           >
             Contact Us
           </button>
@@ -26,16 +26,16 @@ const Home = () => {
 
 
       </div>
-      <div className="w-full md:w-1/2 mt-10 md:mt-0 flex justify-center md:justify-end items-center md:items-start">
-  <img
-    className="w-4/2 max-w-[180px] sm:max-w-[170px] md:w-[220px] md:max-w-[260px] lg:w-[280px] lg:max-w-[300px] object-contain transition-transform duration-300 hover:scale-105"
-    src={logo}
-    alt="logo"
-  />
-</div>
+      <div className="w-full md:w-1/2 mt-5 md:mt-0 flex justify-end items-center md:items-start">
+        <img
+          className="w-auto max-w-[220px] md:max-w-[300px] lg:max-w-[340px] object-contain transition-transform duration-300 hover:scale-105"
+          src={logo}
+          alt="logo"
+        />
+      </div>
 
 
-   </div>
+    </div>
 
 
   )

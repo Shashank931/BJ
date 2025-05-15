@@ -1,10 +1,11 @@
 import React from 'react'
 import about from "../assets/about.png"
 import {IoArrowForward} from "react-icons/io5"
+import { Link } from 'react-router-dom';
 
 const About = () => {
   return (
-    <div className='text-black mt-3 md:flex overflow-hidden items-center md:flex-wrap md:justify-center bg-blue-200 shadow-xl mx-0 md:mx-20 bg-opacity-30 rounded-lg p-12'>
+    <div className='text-black relative ml-2 mr-2 mt-3 md:flex overflow-hidden items-center md:flex-wrap md:justify-center bg-blue-200 shadow-xl mx-0 md:mx-20 bg-opacity-30 rounded-lg p-12'>
         <div>
             <h2 className='text-2xl md:text-4xl font-bold'>About</h2>
             <div className='md:flex flex-wrap flex-col md:flex-row items-center'>
@@ -37,7 +38,21 @@ const About = () => {
                     </div>
                 </ul>
             </div>
+           
         </div>
+              <Link to="/MoreDetails">
+  <div className="mt-5 md:mt-0 md:absolute md:bottom-8 md:right-8">
+    <button
+      className="text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 font-semibold rounded-3xl bg-[#3e58c0]
+      transition-all duration-300 ease-in-out
+      active:scale-95 hover:scale-105 hover:opacity-90
+      shadow-md hover:shadow-lg"
+    >
+      More Details
+    </button>
+  </div>
+</Link>
+
     </div>
   )
 }

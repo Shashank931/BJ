@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <div className='text-black mt-3 overflow-hidden flex justify-center bg-blue-200 shadow-xl mx-0 md:mx-20 bg-opacity-30 rounded-lg p-8'>
+        <div className='min-h-screen mt-3 mr-3 ml-3 flex items-center rounded-2xl justify-center bg-blue-200 bg-opacity-30 px-4 py-12'>
             <form className="w-full max-w-2xl bg-white p-6 rounded-lg shadow-md">
                 <h2 className="text-2xl font-bold mb-6 text-center text-blue-800">Contact Us</h2>
 
@@ -86,7 +86,7 @@ const Contact = () => {
                         type="submit"
                         className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition-all"
                     >
-                        Submit
+                        Send
                     </button>
                 </div>
             </form>

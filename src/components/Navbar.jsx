@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { RiCloseLine, RiMenu2Line } from "@remixicon/react";
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -15,7 +16,7 @@ const Navbar = () => {
         {/* Desktop Menu */}
         <ul className='hidden md:flex space-x-8 text-lg font-medium text-gray-700'>
           <li className='hover:text-blue-600 transition-all text-2xl'>
-            <a href='#MoreDetails'>More Details</a>
+            <Link to="/MoreDetails">More Details</Link>
           </li>
           {/* Add more links as needed */}
         </ul>
@@ -34,7 +35,7 @@ const Navbar = () => {
       {menuOpen && (
         <ul className='md:hidden mt-4 flex flex-col space-y-4 text-lg font-medium text-gray-700 bg-blue-100 bg-opacity-30 rounded-lg p-4 border border-blue-200'>
           <li className='hover:text-blue-600 transition-all'>
-            <a href='#MoreDetails' onClick={() => setMenuOpen(false)}>More Details</a>
+                <Link to="/MoreDetails" onClick={() => setMenuOpen(false)}>More Details</Link>
           </li>
           {/* Add more links if needed */}
         </ul>
